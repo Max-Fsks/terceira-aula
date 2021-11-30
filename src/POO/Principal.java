@@ -19,10 +19,10 @@ public class Principal {
         
         pessoa.setCarro(carro);
         pessoa.ligarCarro();
-        pessoa.setCambioMarcha(1);
+        carro.setCambio(1);
         pessoa.acelerarCarro();
         pessoa.acelerarCarro();
-        pessoa.setCambioMarcha(2);
+        carro.setCambio(2);
         pessoa.acelerarCarro();
         pessoa.frearCarro();
         pessoa.desligarcarro();

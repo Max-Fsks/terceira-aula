@@ -2,11 +2,11 @@ package POO;
 
 public class Carro {
 
-    String tipo;
-    String cor;
-    String placa;
-    int numPortas;
-    Pessoa dono;
+    private String tipo;
+    private String cor;
+    private String placa;
+    private int numPortas;
+    private Pessoa dono;
     int cambio;
 
     public Carro(String tipo, String cor, String placa, int numPortas) {
@@ -31,6 +31,7 @@ public class Carro {
     void frear() {
         System.out.println("freando Carro");
     }
+    
 
     void imprimeDadosCarro() {
         System.out.println("---------CARRO----------");

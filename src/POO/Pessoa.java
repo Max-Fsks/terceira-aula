@@ -95,8 +95,6 @@ public class Pessoa {
         this.carro = carro;
     }
 
-    void setCambioMarcha(int cambio){
-        
-    }
+    
 
 }
